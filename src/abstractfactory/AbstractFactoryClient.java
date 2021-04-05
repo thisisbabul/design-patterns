@@ -17,5 +17,7 @@ public class AbstractFactoryClient {
         Tyre tyre = factory.getTyre();
         tyre.design();
         tyre.manufacture();
+
+        in.close();
     }
 }
